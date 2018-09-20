@@ -1,0 +1,110 @@
+.portfolio {
+  text-align: center;
+  background-color: red; }
+  .portfolio span {
+    font-size: 20px;
+    margin-top: 35px;
+    font-size: 70px; }
+  .portfolio img {
+    height: 2px;
+    width: 170px;
+    margin: 0 auto;
+    display: block; }
+  .portfolio p {
+    margin: 0 auto;
+    font-size: 16px;
+    display: block;
+    margin: 21px; }
+  .portfolio ul {
+    height: 5%;
+    width: 95%;
+    display: inline-flex;
+    margin-bottom: 60px;
+    list-style: none; }
+    .portfolio ul li {
+      width: 11.11%;
+      background-color: white;
+      margin-left: 2px; }
+  .portfolio .image {
+    width: 25%;
+    text-align: center;
+    float: right; }
+    .portfolio .image img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .portfolio .image p {
+      text-align: center; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
+.header {
+  background-color: blue; }
+  .header ul {
+    height: 15%;
+    width: 100%;
+    display: inline-flex;
+    list-style: none; }
+    .header ul li {
+      width: 25%; }
+
+.sub-title {
+  height: 10%;
+  width: 100%;
+  text-align: center; }
+  .sub-title p {
+    position: absolute;
+    z-index: 10;
+    left: 47%; }
+  .sub-title img {
+    position: relative;
+    height: 50px;
+    width: 270px;
+    left: 3%; }
+
+.carroussel {
+  width: 100%;
+  text-align: center;
+  background-color: blue; }
+  .carroussel img {
+    margin-top: 20px; }
+  .carroussel p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px; }
+
+.about-me {
+  background-color: brown; }
+  .about-me span {
+    font-size: 20px;
+    margin-top: 10px;
+    font-size: 70px;
+    display: block; }
+  .about-me img {
+    height: 2px;
+    width: 170px;
+    margin: 0 auto;
+    display: block; }
+  .about-me .descripcion {
+    margin: 0;
+    font-size: 16px;
+    display: block;
+    margin: 21px; }
+  .about-me .categories {
+    width: 100%;
+    margin-bottom: 20px; }
+    .about-me .categories .movies, .about-me .categories .music, .about-me .categories .clothes, .about-me .categories .food {
+      width: 25%;
+      text-align: center;
+      float: right; }
+      .about-me .categories .movies .categoria-imagen, .about-me .categories .music .categoria-imagen, .about-me .categories .clothes .categoria-imagen, .about-me .categories .food .categoria-imagen, .about-me .categories .movies .music img, .about-me .categories .music .movies img, .about-me .categories .music img, .about-me .categories .movies .clothes img, .about-me .categories .clothes .movies img, .about-me .categories .clothes img, .about-me .categories .movies .food img, .about-me .categories .food .movies img, .about-me .categories .food img {
+        height: 90px;
+        width: 90px;
+        margin: 0 auto; }
+      .about-me .categories .movies p, .about-me .categories .music p, .about-me .categories .clothes p, .about-me .categories .food p {
+        margin-bottom: solid 2px black; }
+      .about-me .categories .movies .movies-descripcion, .about-me .categories .music .movies-descripcion, .about-me .categories .clothes .movies-descripcion, .about-me .categories .food .movies-descripcion, .about-me .categories .movies .music p, .about-me .categories .music .movies p, .about-me .categories .music p, .about-me .categories .movies .clothes p, .about-me .categories .clothes .movies p, .about-me .categories .clothes p, .about-me .categories .movies .food p, .about-me .categories .food .movies p, .about-me .categories .food p {
+        text-align: center; }
